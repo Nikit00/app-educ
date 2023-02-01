@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logos-footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    background: linear-gradient(to bottom right, gold, khaki);
+    
+    height: auto;
+    width: 100%;
+    border-top: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+.logos-footer {
+    
+    margin-bottom: 8px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-social {
+    cursor: pointer;
+}
