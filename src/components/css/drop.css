@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+  
+}
+
+
+.toolbar {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+  z-index: 2;
+  
+  
+}
+
+.name-perfil {
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.itens-toolbar {
+  background: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+    
+  width: 180px;
+  
+  font-family: Poppins;
+  box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.8);
+  border-radius: 0px 0px 20px 20px;
+  text-align: center;
+  top: 50px;
+  position: absolute;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+@media (max-width: 600px) {
+  .itens-toolbar {
+   
+    width: 108px;
+    font-size: 12px;
+    border-radius: 0px 0px 10px 10px;
+    height: 100px;
+   
+  }
+
+}
+
+.box-toolbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  
+  
+}
+
+
+li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+li:hover {
+  background-color: gold;
+  border-radius: 10px;
+  
+}
