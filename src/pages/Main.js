@@ -66,7 +66,7 @@ function Dashboard() {
                     <div className='box-function'>
                         <Link to="atendimento">
                             <AiOutlineFileProtect size={40} />
-                            <span>Atendimento Saude, Social ou Familiar</span>
+                            <span>Atendimento Saúde, Social ou Familiar</span>
                         </Link>
                     </div>
                     <div className='box-function'>
